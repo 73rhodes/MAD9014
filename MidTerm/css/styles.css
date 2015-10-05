@@ -1,0 +1,135 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/****************************
+    Default
+****************************/
+*{
+  padding:0;
+  margin: 0;  
+}
+body{
+  font-size: 62.5%;
+  color: #444;  
+}
+h1, h2{
+  font-family: serif;
+  color: #000;
+  padding: 1.5rem 20px;
+}
+h1{
+  font-size: 3.6rem;
+}
+h2{
+  font-size: 2.4rem;
+}
+p, li, a{
+  font-family: sans-serif;  
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: #444;
+  padding: 1.5rem 20px;
+}
+
+/****************************
+    Layout
+****************************/
+.wrapper{
+  width: 960px;
+  background-color: #e4e4e4;
+  border:1px solid #333;
+  margin:0 auto;
+}
+.masthead{
+  
+}
+.nav{
+  height: 3.0rem;
+  border-top:1px solid #333;
+  border-bottom:4px solid #333;
+}
+.main{
+  /* use two-thirds or PHI to set the width of this column */
+}
+.sidebar{
+  /* use one-third or PHI to set the width of this column */
+}
+.footer{
+  border-top:1px solid #333;
+  clear:both; 
+}
+
+/****************************
+    Masthead
+****************************/
+.masthead{
+  background-color: #333;
+}
+.masthead h1{
+  color: #eee;  
+}
+
+/****************************
+  Navigation & Controls
+****************************/
+.nav a{
+    
+}
+.btn{
+  display:inline-block;
+  margin: 0.5rem 20px;
+  border:1px solid #333;
+  border-radius: 8px;
+  width: 120px;
+  line-height: 2.0rem;
+  font-size: 1.0rem;
+  font-weight: bold;
+  text-align:center;  
+  cursor: pointer;
+}
+
+.enabled {
+  cursor: pointer;
+  background:#F96;
+}
+
+.disabled {
+  background: #CCCCCC;
+  cursor: default;
+}
+
+/****************************
+    Content
+****************************/
+
+.footer p{
+  font-size: 1.2rem;
+  color: #888;  
+}
+
+/****************************
+  Data Output Styles
+****************************/
+
+
+.main {
+    display: inline;
+    width: 50%;
+    float: left;
+}
+.sidebar {
+    display: inline;
+    width: 50%;
+    float: right;
+}
+
+#output1 > img {
+  width: 50%;
+  display: inline;
+  float: left;
+}
+
+#output1 > h2 {
+  display: inline;
+  float: right;
+}
